@@ -1,5 +1,0 @@
-ll.txt
-ls.txt
-README.md
-test2.txt
-Fri Apr  4 13:55:33 CST 2014
