@@ -239,3 +239,4 @@ Thoughtbot.](https://learn.thoughtbot.com/products/21-navigating-ruby-files-with
 -   [Leave a tip](/tipjar)
 
 Vimcasts.org established MMX
+=======
