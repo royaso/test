@@ -1,10 +1,8 @@
-# Docker简明教程
-
 > Docker自从诞生以来就一直备受追捧，学习Docker是一件很炫酷、很有意思的事情。我希望通过这篇文章能够让大家快速地入门Docker，并有一些学习成果来激发自己的学习兴趣。我也只是一个在Docker这条巨鲸上玩耍的小孩，全文如有不明确、不正确的地方，还请斧正。
 
 ## Ubuntu上安装Docker
 
-Docker的基础是Linux容器技术，因此学习Docker最好是使用Linux。这里推荐Ubuntu系统，如果手边没有Ubuntu系统可以去[Digitalocean](https://www.digitalocean.com/)、[Ucloud](http://www.ucloud.cn/)等云服务商去租用一个Linux服务器。这样即使玩坏了也可以随时重来。
+Docker的基础是Linux容器技术，因此学习Docker最好是使用Linux。这里推荐64位Ubuntu系统，因为在写此文(2015-05-28)时，Docker还不支持32位，尽管民间有些土办法可以象征性的解决，但还是推荐初学Docker的尽量按照标准的来。如果手边没有Ubuntu系统可以去[Digitalocean](https://www.digitalocean.com/?refcode=97e74cd7d055)、[Ucloud](http://www.ucloud.cn/)等云服务商去租用一个Linux服务器。这样即使玩坏了也可以随时重新开始。
 
 在Ubuntu中只需要运行一行命令即可实现Docker的安装：
 
@@ -151,7 +149,7 @@ images命令用来查看本机Docker中存在哪些镜像，运行 `docker image
 	
 ## DaoCloud实战
 	
-如果我们自己没有服务器，刚刚的网页我们只能在本地访问，好可惜。别急，现在我要隆重介绍一个Docker的好伙伴-`DaoCloud`，官网传送门：[https://www.daocloud.io/](https://www.daocloud.io/)
+如果我们自己没有服务器，刚刚的网页我们只能在本地访问，好可惜。别急，现在我要隆重介绍一个Docker的好伙伴-`DaoCloud`，官网传送门：[https://www.daocloud.io/](https://account.daocloud.io/signup?invite_code=tqnulhtt2zsoh3p8npcu )
 
 有了DaoCloud，我们只需要负责写Dockerfile，剩下的build、运行之类的东西都交给DaoCloud，我们只需要点一点按钮即可。
 
@@ -184,10 +182,3 @@ DaoCloud会将Github、GitCafe等git服务商作为代码源，这里我使用Gi
 ## 写在最后
 
 Docker能做的事情远不止这些，更多有意思的事情还请读者慢慢用心去发现。
-
-
-
-
-
-
-
