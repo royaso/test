@@ -182,3 +182,7 @@ DaoCloud会将Github、GitCafe等git服务商作为代码源，这里我使用Gi
 ## 写在最后
 
 Docker能做的事情远不止这些，更多有意思的事情还请读者慢慢用心去发现。
+
+## 原文地址
+
+[http://blog.saymagic.cn/2015/06/01/learning-docker.html](http://blog.saymagic.cn/2015/06/01/learning-docker.html)
